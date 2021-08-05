@@ -1,0 +1,21 @@
+{
+  "name": "coinbase_harvester",
+  "version": "1.0.0",
+  "description": "Extract coinbase strings from blocks",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin"
+  ],
+  "author": "Brad",
+  "license": "SEE LICENSE IN license.txt",
+  "dependencies": {
+    "@iangregsondev/rpc-bitcoin": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
